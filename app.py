@@ -438,7 +438,7 @@ def internal_error(error):
 # ==========================================
 # START APPLICATION
 # ==========================================
-
+init_db()
 if __name__ == "__main__":
     init_db()
 
